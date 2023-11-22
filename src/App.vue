@@ -13,11 +13,10 @@
       </div>
     </div>
   </nav>
+
 <div v-cloak>
   <RouterView/>
 </div>
-
-
 </template>
 
 <script>

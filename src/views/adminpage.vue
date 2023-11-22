@@ -66,6 +66,7 @@ components : {viewqr},
                 router.push({name : 'home'})
             }
         },
+        
         async start_data1() {
             const userdataRef = collection(db, "location");
             const q = query(userdataRef, where("nama", "==", "Mall A"));

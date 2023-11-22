@@ -33,6 +33,8 @@
 
 <script>
 import Videonotes from './videonotes.vue';
+// import Carousel from './carousel.vue';
+
 export default{
     components : {Videonotes}
 }
@@ -91,7 +93,7 @@ export default{
     top: 0;
     left: 0;
     width: 100%;
-    height: 125%;
+    height: 100%;
     filter: brightness(60%);
   }
 
