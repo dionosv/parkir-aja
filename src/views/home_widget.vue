@@ -1,23 +1,22 @@
 <template>
    <div class="row">
-      <div class="col-md-5">
-        <div class="p-5 text-bg-dark rounded-3" id="box">
+        <div id="box">
+          <div class="isi">
           <h1>Mall A</h1>
           <p>{{slot_a}}</p>
           <span class="badge text-bg-success rounded-pill">Available</span> 
         </div>
-      </div>
-
-      <div class="col-md-5">
-        <div class=" p-5 text-bg-dark rounded-3" id="box">
+        </div>
+        <div id="box">
+          <div class="isi">
           <h1>Mall B</h1>
           <p>{{slot_b}}</p>
           <span class="badge text-bg-success rounded-pill">Available</span> 
         </div>
-      </div>
+        </div>
     </div> 
 
-
+    <!-- 495057 -->
     
 </template>
 
@@ -104,10 +103,28 @@ export default {
     font-family: 'Inter-Medium';    
 }
 
+#box{
+  background-color: #212529;
+  border-radius: 15px; 
+  width: 200px; /* Lebar kotak */
+  height: 200px; /* Tinggi kotak */ 
+  padding: 10px;
+  margin: 10px; 
+  display: flex;
+  align-items: center; /* Menengahkan vertikal */
+  justify-content: center; /* Menengahkan horizontal */
+
+
+}
+
+ 
+
 @media (max-width: 777px) {
 
   #box{
+    width: 200px;
     margin: 5px;
+    height: 185px;
   }
 
   .row{  
