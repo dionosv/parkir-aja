@@ -2,7 +2,7 @@
     <div class="content" v-if="render">
         <div class="greeting">
             <h2>Hello, {{ displayname }}</h2>
-            <h4>Welcome to reserve parking</h4>
+            <h4>Welcome to Parkir Aja</h4>
             <div class="masukan" v-if="msk">
                 <h3 :style="{ color: textColor }">Vehicle number</h3>
                 <div class="flexbox">

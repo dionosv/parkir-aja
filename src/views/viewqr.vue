@@ -78,7 +78,7 @@ export default {
 
     computed: {
         generateqr() {
-            this.qrcode.value = "https://reserve-parking.vercel.app/park/"+this.id
+            this.qrcode.value = "https://parkir-aja.vercel.app/park/"+this.id
             return this.qrcode.toDataURL();
         },
     },
